@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Te amo mi vida</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(#c7a0d9, #b57edc);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    .heart {
+      font-size: 4em;
+      animation: latido 1s infinite;
+      margin-bottom: 30px;
+    }
+
+    @keyframes latido {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.25); }
+      100% { transform: scale(1); }
+    }
+
+    .seccion {
+      max-width: 750px;
+      margin: 30px auto;
+      background: rgba(255,255,255,0.15);
+      padding: 25px;
+      border-radius: 20px;
+    }
+
+    .mensaje {
+      font-size: 1.2em;
+      line-height: 1.6;
+      margin-top: 20px;
+    }
+
+    .boton {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: white;
+      color: #8a4bb8;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 30px;
+      transition: 0.3s;
+    }
+
+    .boton:hover {
+      background: #f2e6fa;
+      transform: scale(1.05);
+    }
+
+    iframe {
+      border-radius: 12px;
+      margin-top: 20px;
+    }
+
+    .galeria {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 50px;
+    }
+
+    .galeria img {
+      width: 200px;
+      max-width: 90%;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Te amo mi vida ❤️🙈</h1>
+  <div class="heart">❤️</div>
+
+  <div class="seccion">
+    <h2>Hey Jude 🎶</h2>
+
+    <!-- Spotify -->
+    <iframe 
+      src="https://open.spotify.com/embed/track/7DD7eSuYSC5xk2ArU62esN"
+      width="100%" 
+      height="152" 
+      frameborder="0" 
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+    </iframe>
+
+    <!-- Botón letra -->
+    <a class="boton" 
+       href="https://www.letras.com/the-beatles/88/traduccion.html" 
+       target="_blank">
+       Ver la letra en español 💜
+    </a>
+
+    <!-- Mensaje personal -->
+    <div class="mensaje">
+      Esta canción es para ti mi vida la cual me recuerda que incluso cuando hay dolor, incertidumbre, dudas y miedos  
+      el amor nos enseña a seguir adelante.  
+      Gracias por ser mi amor de mi vida mi monita mi amor maravilloso, por sostenerme y tu nunca dudes de este inmenso amor que te tengo, te amo y te amaré toda la vida y 
+      todos los días. 🤍
+    </div>
+  </div>
+
+  <!-- Galería de fotos -->
+  <div class="galeria">
+    <img src="WhatsApp Image 2026-01-04 at 2.27.02 PM">
+    <img src="WhatsApp Image 2026-01-04 at 2.27.03 PM">
+    <img src="WhatsApp Image 2026-01-04 at 2.27.03 PM (1)">
+    <img src="WhatsApp Image 2026-01-04 at 2.27.03 PM (2)">
+    <img src="WhatsApp Image 2026-01-04 at 2.27.03 PM (3)">
+    <img src="WhatsApp Image 2026-01-04 at 2.27.03 PM (4)">
+  </div>
+
+</body>
+</html>
